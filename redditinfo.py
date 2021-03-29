@@ -4,8 +4,8 @@ class from_subreddit:
     def __init__(self,sub_name,l):
         self. r = praw.Reddit(
 
-            client_id="uRhfZiYd4eJcPw",
-            client_secret="WfzjyAuLiW8LlQU7L8Qx_8zAJDGt4g",
+            client_id="[Your client id]",
+            client_secret="[Your client secret]",
             user_agent="gasjasgavbsdkjavsdjhvads",
         )
         self.name = sub_name
